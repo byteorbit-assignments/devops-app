@@ -1,0 +1,47 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__
+
+# Pytest
+.pytest_cache/
+
+# distutils / setuptools
+*.egg-info/
+.eggs/
+
+# NPM/Yarn packages
+node_modules
+
+# Editor
+.idea/
+
+# Tox
+.tox/
+
+# Vagrant
+.vagrant/
+
+# local env
+.env
+
+# instance static/media
+**/static_root
+**/media_root
+
+# tests, coverage
+.tox/
+.coverage
+htmlcov/
+
+# switch to regexp syntax for ^ (match path starts with):
+syntax: regexp
+
+dev/
+instance/
+deploy/
+build/
+dist/
+venv/
+.idea/
+.cache/

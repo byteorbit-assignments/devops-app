@@ -1,0 +1,7 @@
+pytest
+pytest-django
+pytest-cov
+pytest-env
+factory_boy
+flake8
+flake8-checkstyle >=0.1.2
