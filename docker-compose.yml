@@ -26,7 +26,6 @@ services:
       DB_USER: 'postgres'
       DB_PASSWORD: 'postgres'
       DB_NAME: 'postgres'
-      DEBUG: '1'
       REDIS_URL: 'redis://redis:6379/'
       WAIT_FOR: 'db:5432 redis:6379'
 
